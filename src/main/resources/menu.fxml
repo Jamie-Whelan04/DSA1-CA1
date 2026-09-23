@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="controllers.MenuController">
+
+    <children>
+        <HBox spacing="20" layoutX="20" layoutY="20">
+
+            <!-- Left VBox for Buttons -->
+            <VBox alignment="TOP_CENTER" spacing="10">
+
+                <Label text="Supermarket System"
+                       style="-fx-font-size: 24; -fx-font-weight: bold;" />
+
+                <Separator prefWidth="250"/>
+
+                <Button text="Add Floor Area" prefWidth="250" onAction="#onAddFloorArea"/>
+                <Button text="Add Aisle" prefWidth="250" onAction="#onAddAisle"/>
+                <Button text="Add Shelf" prefWidth="250" onAction="#onAddShelf"/>
+                <Button text="Add Goods" prefWidth="250" onAction="#onAddGoods"/>
+                <Button text="Remove Item" prefWidth="250" onAction="#onRemoveItem"/>
+                <Button text="View All Stock" prefWidth="250" onAction="#viewStock"/>
+                <Button text="Search Goods" prefWidth="250" onAction="#onSearchGoods"/>
+                <Button text="View Total Value" prefWidth="250" onAction="#onTotalValue"/>
+                <Button text="Reset Supermarket" prefWidth="250" onAction="#onReset"/>
+
+                <Separator prefWidth="250"/>
+
+                <Button text="Exit" prefWidth="250" onAction="#onExit"/>
+
+            </VBox>
+
+            <!-- Right VBox for Hierarchy ListViews -->
+            <VBox spacing="10" alignment="TOP_LEFT">
+
+                <Label text="Floor Areas"/>
+                <ListView fx:id="floorAreaList" prefHeight="100" prefWidth="300"/>
+
+                <Label text="Aisles"/>
+                <ListView fx:id="aisleList" prefHeight="100" prefWidth="300"/>
+
+                <Label text="Shelves"/>
+                <ListView fx:id="shelfList" prefHeight="100" prefWidth="300"/>
+
+                <Label text="Goods"/>
+                <ListView fx:id="goodsList" prefHeight="150" prefWidth="300"/>
+
+            </VBox>
+
+        </HBox>
+    </children>
+
+</AnchorPane>
