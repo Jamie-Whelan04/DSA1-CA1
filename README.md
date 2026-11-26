@@ -30,7 +30,6 @@ The Shop Management System lets a user manage a shop's records, such as products
 - Search for products (e.g. by name or ID)
 - Sort products by different criteria (e.g. price, name, quantity)
 - Record and view sales / transactions
-- *(Add or remove features to match your project)*
 
 ## Project Structure
 
@@ -105,13 +104,6 @@ Example:
 
 <img width="1195" height="1081" alt="image" src="https://github.com/user-attachments/assets/9eb50cbb-0a3c-4f04-ac67-92f222ad6509" />
 
-## Data Structures & Algorithms Used
-
-| Component | Data Structure / Algorithm | Reason |
-|-----------|---------------------------|--------|
-| *(e.g. storing products)* | *(e.g. ArrayList / custom linked list)* | *(why it was chosen)* |
-| *(e.g. searching)* | *(e.g. linear / binary search)* | *(why it was chosen)* |
-| *(e.g. sorting)* | *(e.g. bubble / merge / quick sort)* | *(why it was chosen)* |
 
 ## Author
 
