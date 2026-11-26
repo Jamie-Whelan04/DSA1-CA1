@@ -22,7 +22,6 @@ A Java application for managing a shop's day-to-day data, built as part of our D
 
 The Shop Management System lets a user manage a shop's records, such as products, stock and sales, through a Java application. The project focuses on choosing and implementing suitable data structures and algorithms to store, search and sort that data efficiently.
 
-> **TODO:** Add 2–3 sentences describing the specific brief (what the assignment asked for, any constraints or requirements).
 
 ## Features
 
@@ -37,13 +36,35 @@ The Shop Management System lets a user manage a shop's records, such as products
 
 ```
 DSA1-CA1/
-├── src/               # Application source code
-├── pom.xml            # Maven build configuration
+├── src/
+   ├──main
+      ├──Java
+         ├──LinkedList
+            ├──node.java
+            ├──projectLinkedList.java
+         ├──Main
+            ├──app.java
+         ├──controllers
+            ├──menuController.java
+         ├──models
+            ├──Aisle.java
+            ├──floorArea.java
+            ├──good.java
+            ├──shelf.java
+            ├──supermarket.java
+         ├──org/example
+            class.java
+      ├──resources
+         ├──menu.fxml
+   ├──test/java/models
+      ├──FloorAreaTest.java
+      ├──shelfTest.java
+      ├──supermarketTest.java
+├── pom.xml
 ├── .gitignore
 └── README.md
 ```
 
-> **TODO:** Expand `src/` to list your key classes (e.g. `Product.java`, `Shop.java`, `Driver.java`).
 
 ## Getting Started
 
@@ -68,11 +89,8 @@ DSA1-CA1/
    java -cp target/classes [package.]MainClass
    ```
 
-> **TODO:** Replace `[package.]MainClass` with your actual main class.
-
 ## Usage
 
-> **TODO:** Describe how to use the program, e.g. the menu options, example input and sample output.
 
 ```
 Example:
