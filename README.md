@@ -99,13 +99,11 @@ Example:
 3) Search
 4) Add Aisles
 ...
+```
 
 <img width="1198" height="1090" alt="image" src="https://github.com/user-attachments/assets/8cbdb454-d70c-46e4-b491-c1b1dd8ae6c9" />
 
 <img width="1195" height="1081" alt="image" src="https://github.com/user-attachments/assets/9eb50cbb-0a3c-4f04-ac67-92f222ad6509" />
-
-
-```
 
 ## Data Structures & Algorithms Used
 
